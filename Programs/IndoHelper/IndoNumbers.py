@@ -13,6 +13,9 @@ digits = {
     9:'sembilan',
 }
 
+def randIndo(start, end):
+    return intToIndo(randint(start, end))
+
 def intToIndo(i):
     """
     Converts a positive integer within the range [MIN_INT, MAX_INT] into Bahasa Indonesia
