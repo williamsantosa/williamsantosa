@@ -2,8 +2,12 @@ from IndoNumbers import *
 from time import *
 
 def guess():
+
+    # Welcome message with delay
     print("Hi! Welcome to 'Guess the Number', where you'll be translating the given number (in Bahasa Indonesia) to a digit! For example: 'lima' -> 5 and 'seratus tiga puluh satu' -> 131\n")
     sleep(1)
+
+    # Min number with error check
     while True:
         try:
             start = int(input("Please select the minimum number you want to translate: "))
@@ -11,6 +15,7 @@ def guess():
         except ValueError:
             print("Whoops! That was an invalid input. Please try again.")
     
+    # Max number with error check
     validEnd = False
     while validEnd == False:
         try:
@@ -22,14 +27,16 @@ def guess():
         except ValueError:
             print("Whoops! That was an invalid input. Please try again.")
     
-
+    # Create number and string for Bahasa Indonesia
     number = randint(start, end)
     indo = intToIndo(number)
-    print("\nPlease translate the following:")
+
+    # Print out the word in Indonesian and prompt user for input
+    print("\nPlease translate the following into digits:")
     g = input(indo + '\n')
 
+    # Check the input if it's correct or not and if the user would like to play again
     q = ''
-
     while True:
         try:
             if int(g) == number:
