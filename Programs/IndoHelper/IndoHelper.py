@@ -1,6 +1,82 @@
 from IndoNumbers import *
 from time import *
 
+def convert():
+    # Welcome message with delay
+    print("Hi! Welcome to 'Convert the Digits' where you'll convert a number or range of numbers into Bahasa Indonesia.\n")
+    sleep(1)
+
+    # Selection of input
+    validEnd = False
+    while validEnd == False:
+        try:
+            select = input("Please specify whether you'd like to convert a single number or a range of numbers (S/M): ")
+            select = select.lstrip().lower()
+            if select == 's' or select == 'm':
+                validEnd = True
+            else:
+                print("Whoops! That was an invalid input. Please try again.")
+        except ValueError:
+            print("Whoops! That was an invalid input. Please try again.")
+
+    if select == 'm':
+        # Min number with error check
+        while True:
+            try:
+                start = int(input("Please select the first number you would like to translate: "))
+                break
+            except ValueError:
+                print("Whoops! That was an invalid input. Please try again.")
+        
+        # Max number with error check
+        validEnd = False
+        while validEnd == False:
+            try:
+                end = int(input("Please select the last number you want to translate: "))
+                if end >= start:
+                    validEnd = True
+                else:
+                    print("Sorry! That number was less than the first number. Please try again.")
+            except ValueError:
+                print("Whoops! That was an invalid input. Please try again.")
+
+    elif select == 's':
+        # Min number with error check
+        while True:
+            try:
+                start = int(input("Please select the number you want to translate: "))
+                end = start
+                break
+            except ValueError:
+                print("Whoops! That was an invalid input. Please try again.")
+
+    print("Here is your number:") if select == 's' else print("Here are your numbers:")
+    for i in range(start, end + 1):
+        print(intToIndo(i))
+
+    # Ask if the user would like to convert another number or numbers
+    q = ''
+    while True:
+        try:
+            q = input("Would you like to convert another number? (Y/N): ") if select == 's' else input("Would you like to convert more numbers? (Y/N): ")
+            break
+        except ValueError:
+            q = input("Sorry! That's an invalid option. Would you like to convert another number? (Y/N): ") if select == 's' else input("Sorry! That's an invalid option. Would you like to convert more numbers? (Y/N): ")
+            break
+
+    # Ask again to replay with error checks
+    while True:
+        if q.lstrip().lower().startswith('y'):
+            print("All right!")
+            convert()
+        elif q.lstrip().lower().startswith('n'):
+            print("That's a shame. See you next time!")
+            exit()
+        else:
+            q = input("Sorry! That's an invalid option. Please choose again (Y/N): ")
+
+    return 0
+
 def guess():
 
     # Welcome message with delay
@@ -61,12 +137,15 @@ def guess():
     return 0
 
 def main():
-    select = input("Hi! Welcome to IndoHelper. We have a couple of little games to help you learn Bahasa Indonesia. Please select from the list below.\n- Guess\n\nSelection: ")
+    select = input("Hi! Welcome to IndoHelper. We have a couple of little games to help you learn Bahasa Indonesia. Please select from the list below.\n- Convert\n- Guess\n\nSelection: ")
     notSelected = True
 
     # Ask which game to play with false selection check
     while notSelected == True:
-        if select.lstrip().lower() == 'guess':
+        if select.lstrip().lower() == 'convert':
+            convert()
+            notSelected = False
+        elif select.lstrip().lower() == 'guess':
             guess()
             notSelected = False
         else:
