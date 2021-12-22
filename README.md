@@ -1,7 +1,9 @@
-I'm a Software Developer aiming to make a difference in the world by helping people become more educated and knowledgeable.
-
-- 🖊️ I'm currently working on a discord bot & applying for internships
-- 👀 I’m interested in software development & logistical processes
-- 🌱 I’m currently learning AWS, SAP, & Software Development Practices
-- 💞️ I’m looking to collaborate on 
-- 📫 How to reach me: [email](williamwsantosa@gmail.com) & [LinkedIn](https://www.linkedin.com/in/williamsantosa/)
+I'm a Software Developer aiming to make a difference in the world by helping others and myself become knowledgeable about what is going on around us. I am aiming to improve both my skills and soft skills with an internship and my personal projects.
+ 
+- 🖊️ I'm working on a Discord bot and applying for internships
+- 👀 I’m interested in logistical processes and how others process information
+- 🌱 I’m learning AWS, SAP, and Software Development practices
+- 💬 Ask me about interning with your company
+- 📫 How to reach me: [Email](williamwsantosa@gmail.com) or [LinkedIn](https://www.linkedin.com/in/williamsantosa/)
+- 😁 Pronouns: he/him
+- 💪🏼 Fun Fact: I enjoy going to the gym and playing video games
