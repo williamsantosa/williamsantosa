@@ -2,13 +2,26 @@ from IndoNumbers import *
 from time import *
 
 def hbas():
-    print("This is the basic information.")
+    print("Here is some information on the single digits and other basic information.")
 
+    digits_copy = digits.copy()
+    digits_copy[0] = 'nol'
+    for i in digits_copy:
+        print('- ' + str(i) + ' -> ' + str(digits_copy[i]))
+
+    print("Negative numbers are denoted by putting 'negatif' before the number. e.g negatif " + str(randIndo(1, 9)))
+    print("Adding 'belas' after a single digit means 'teen' like 'sixteen' or 'fourteen' in English. Adding 'Puluh' means something is in the ten digits place. Consequently:")
+    print("- ten -> puluh\n- hundred -> ratus\n- thousand -> ribu\n- million -> juta\n- billion -> milliar")
 def hadv():
-    print("This is advanced information.")
+    print("Here is some extra knowledge on numbers.")
+
+    print("There are a few special cases for numbers in Bahasa Indonesia like in English. Namely:")
+    print("- 10 -> sepuluh\n- 11 -> sebelas\n- 100 -> seratus\n 1000 -> seribu")
 
 def hall():
-    print("This is all information.")
+    hbas()
+    print()
+    hadv()
 
 def help():
     # Welcome message with delay
