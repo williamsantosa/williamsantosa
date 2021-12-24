@@ -1,6 +1,7 @@
 from IndoNumbers import *
 from time import *
 
+# Print statements for help()
 def hbas():
     print("Here is some information on the single digits and other basic information.")
 
@@ -12,11 +13,12 @@ def hbas():
     print("Negative numbers are denoted by putting 'negatif' before the number. e.g negatif " + str(randIndo(1, 9)))
     print("Adding 'belas' after a single digit means 'teen' like 'sixteen' or 'fourteen' in English. Adding 'Puluh' means something is in the ten digits place. Consequently:")
     print("- ten -> puluh\n- hundred -> ratus\n- thousand -> ribu\n- million -> juta\n- billion -> milliar")
+
 def hadv():
     print("Here is some extra knowledge on numbers.")
 
     print("There are a few special cases for numbers in Bahasa Indonesia like in English. Namely:")
-    print("- 10 -> sepuluh\n- 11 -> sebelas\n- 100 -> seratus\n 1000 -> seribu")
+    print("- 10 -> sepuluh\n- 11 -> sebelas\n- 100 -> seratus\n- 1000 -> seribu")
 
 def hall():
     hbas()
@@ -28,8 +30,10 @@ def help():
     print("Welcome to the help menu where I'll give an explanation on how to convert a number from digits to Bahasa Indonesia.\n")
     sleep(1)
  
-    validChoices = ('basic', 'advanced', 'all')
+    
 
+    # All possible choices and error checks
+    validChoices = ('basic', 'advanced', 'all')
     validEnd = False
     while validEnd == False:
         try:
@@ -42,6 +46,7 @@ def help():
         except ValueError:
             print("Whoops! That was an invalid input. Please try again.")
 
+    # Selection
     if select == 'basic':
         hbas()
     elif select == 'advanced':
@@ -61,7 +66,6 @@ def help():
         else:
             q = input("Sorry! That's an invalid option. Please choose again (Y/N): ")
     return 0
-
 
 def convert():
     # Welcome message with delay
