@@ -1,9 +1,30 @@
 from IndoNumbers import *
 from time import *
 
+def help():
+    # Welcome message with delay
+    print("Welcome to the help menu where I'll give an explanation on how to convert a number from digits to Bahasa Indonesia.\n")
+    sleep(1)
+    
+    
+
+    q = input("Would you like another explanation? (Y/N)")
+    # Ask again to replay with error checks
+    while True:
+        if q.lstrip().lower().startswith('y'):
+            print("All right!")
+            guess()
+        elif q.lstrip().lower().startswith('n'):
+            print("No problem. See you again!")
+            exit()
+        else:
+            q = input("Sorry! That's an invalid option. Please choose again (Y/N): ")
+    return 0
+
+
 def convert():
     # Welcome message with delay
-    print("Hi! Welcome to 'Convert the Digits' where you'll convert a number or range of numbers into Bahasa Indonesia.\n")
+    print("Welcome to 'Convert the Digits' where you'll specify a number or range of numbers to be converted into Bahasa Indonesia.\n")
     sleep(1)
 
     # Selection of input
@@ -80,7 +101,7 @@ def convert():
 def guess():
 
     # Welcome message with delay
-    print("Hi! Welcome to 'Guess the Number', where you'll be translating the given number (in Bahasa Indonesia) to a digit! For example: 'lima' -> 5 and 'seratus tiga puluh satu' -> 131\n")
+    print("Welcome to 'Guess the Number', where you'll be translating the given number (in Bahasa Indonesia) to a digit! For example: 'lima' -> 5 and 'seratus tiga puluh satu' -> 131\n")
     sleep(1)
 
     # Min number with error check
@@ -142,7 +163,10 @@ def main():
 
     # Ask which game to play with false selection check
     while notSelected == True:
-        if select.lstrip().lower() == 'convert':
+        if select.lstrip().lower() == 'help':
+            help()
+            notSelected = False
+        elif select.lstrip().lower() == 'convert':
             convert()
             notSelected = False
         elif select.lstrip().lower() == 'guess':
