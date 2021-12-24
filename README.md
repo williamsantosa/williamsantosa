@@ -1,4 +1,4 @@
-I'm a Software Developer aiming to change the world by helping myself and others become knowledgeable about what is going on around us. I am aiming to improve my skills and soft skills with an internship and personal projects.
+Hi! my name is William Santosa. I'm a Software Developer aiming to help the world by making myself and others become knowledgeable about what is going on around us in addition to improving our standard of daily life. I am seeking to improve my skills and soft skills with my personal projects and an internship.
  
 - 🖊️ I'm working on a Discord bot and applying for internships
 - 👀 I’m interested in logistical processes and how others process information
