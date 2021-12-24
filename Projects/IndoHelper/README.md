@@ -2,7 +2,7 @@ Indonesian Helper (IndoHelper)
 -------------------
 DESCRIPTION
 
-As a Chinese-Indonesian person, most of my family came from or still live in Indonesia. As a result, most of us (save for a few children in my generation) speak Bahasa Indonesia. This program helps people learn the basic number system for Bahasa Indonesia and provides games to help in thier progression to mastery of the language. After using this program, you will be able to convert any integer in English into Bahasa Indonesia.
+As a Chinese-Indonesian person, most of my family came from or still live in Indonesia. As a result, most of us (save for a few children in my generation) speak Bahasa Indonesia. This program helps people learn the basic number system for Bahasa Indonesia and provides games to help in their progression to mastery of the language. After using this program, they will be able to convert any integer in English into Bahasa Indonesia.
 
 -------------------
 FILES
