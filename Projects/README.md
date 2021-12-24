@@ -1,1 +1,1 @@
-This folder contains all of my personal projects. If you'd like to inquire about any of them or just have a question to ask me, please check out my contact information on my github profile page or reach out to my [email](mailto:williamwsantosa@gmail.com)
+This folder contains all of my personal projects I'd like to show to others. If you'd like to inquire about any of them please check out my contact information on my github profile page or reach out to my [email](mailto:williamwsantosa@gmail.com) (williamwsantosa@gmail.com).
