@@ -1,19 +1,47 @@
 from IndoNumbers import *
 from time import *
 
+def hbas():
+    print("This is the basic information.")
+
+def hadv():
+    print("This is advanced information.")
+
+def hall():
+    print("This is all information.")
+
 def help():
     # Welcome message with delay
     print("Welcome to the help menu where I'll give an explanation on how to convert a number from digits to Bahasa Indonesia.\n")
     sleep(1)
-    
-    
+ 
+    validChoices = ('basic', 'advanced', 'all')
+
+    validEnd = False
+    while validEnd == False:
+        try:
+            select = input("Please specify what explanation you'd like (Basic/Advanced/All): ")
+            select = select.lstrip().lower()
+            if select in validChoices:
+                validEnd = True
+            else:
+                print("Whoops! That was an invalid input. Please try again.")
+        except ValueError:
+            print("Whoops! That was an invalid input. Please try again.")
+
+    if select == 'basic':
+        hbas()
+    elif select == 'advanced':
+        hadv()
+    elif select == 'all':
+        hall()
 
     q = input("Would you like another explanation? (Y/N)")
     # Ask again to replay with error checks
     while True:
         if q.lstrip().lower().startswith('y'):
             print("All right!")
-            guess()
+            help()
         elif q.lstrip().lower().startswith('n'):
             print("No problem. See you again!")
             exit()
@@ -158,7 +186,7 @@ def guess():
     return 0
 
 def main():
-    select = input("Hi! Welcome to IndoHelper. We have a couple of little games to help you learn Bahasa Indonesia. Please select from the list below.\n- Convert\n- Guess\n\nSelection: ")
+    select = input("Hi! Welcome to IndoHelper. We have a couple of little games to help you learn Bahasa Indonesia. Please select from the list below.\n- Help\n- Convert\n- Guess\n\nSelection: ")
     notSelected = True
 
     # Ask which game to play with false selection check
