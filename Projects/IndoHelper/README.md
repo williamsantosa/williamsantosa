@@ -19,6 +19,6 @@ Contains the number converter and other helper functions developed to run IndoHe
 INSTRUCTION
 
 1. Open terminal
-2. Enter ~/williamsantosa/Projects/IndoHelper repository
+2. Enter ~/IndoHelper repository
 3. Type 'python IndoHelper.py' into the terminal and press 'Enter'
 4. Follow the instructions outputted onto terminal
