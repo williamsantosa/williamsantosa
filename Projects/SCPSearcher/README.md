@@ -7,7 +7,11 @@ DESCRIPTION
 -------------------
 FILES
 
-- 
+- SCPSearcher.py
+
+- config.py
+
+Contains the parameters required to run SCPSearcher.py 
 
 -------------------
 INSTRUCTION
