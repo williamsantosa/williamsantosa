@@ -54,7 +54,7 @@ def help():
     elif select == 'all':
         hall()
 
-    q = input("Would you like another explanation? (Y/N)")
+    q = input("Would you like another explanation? (Y/N): ")
     # Ask again to replay with error checks
     while True:
         if q.lstrip().lower().startswith('y'):
