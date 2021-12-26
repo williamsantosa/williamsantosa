@@ -19,7 +19,16 @@ async def on_message(message):
     if message.author == client.user:
         return
     
-    if user_message.lower() == "hello":
+    lmsg = user_message.lower()
+
+    if lmsg == "!help":
         await message.channel.send(f'Hello {username}!')
+    elif lmsg.split(" ")[0] == "!scp" and len(lmsg.split(" ")) == 2:
+        n = lmsg.split(" ")[1]
+        await message.channel.send(f"https://scp-wiki.wikidot.com/scp-{n}")
+
+@client.event
+async def shutdown(context):
+    exit()
 
 client.run(TOKEN)
