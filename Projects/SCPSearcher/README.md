@@ -2,7 +2,7 @@ SCP Searcher
 -------------------
 DESCRIPTION
 
-SCPs 
+The acronym "SCP" refers to the vast amount of anomalies catalogued in [The SCP Foundation](https://en.wikipedia.org/wiki/SCP_Foundation). Most of these anomalies are secured and contained within an SCP facility in order to protect the general public from their potentially dangerous effects. With this bot, you can search and find the documentation of each SCP with the hyperlink given.
 
 -------------------
 FILES
