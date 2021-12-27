@@ -42,7 +42,7 @@ def teamSort(players, n):
 def leagueSort(players):
     # Error check for if not 10 players
     if len(players) != 10:
-        return False
+        return
 
     # Initialize team 1 and team 2
     # Player : Role
@@ -70,6 +70,37 @@ async def on_message(message):
 
     # See messages sent in the server in terminal
     print(f"{username}: {user_message} ({channel})")
+
     
+    # Help command and create variable for message put lowercase
+    listmsg = lmsg.split(" ")
+    if lmsg == "!help":
+        await message.channel.send("```!team <number of teams> player1 player2 ... to create teams\n!league player1 player2 ... to create teams with roles for League of Legends 5v5 customs```")
+        return
+    elif listmsg[0] == "!team":
+        n = listmsg[1]
+        players = listmsg[2:]
+        teams = teamSort(players, int(n))
+        msg = ""
+        for team in teams:
+            t = team + 1
+            msg = msg + f"Team {t}\n"
+            for player in teams[team]:
+                msg = msg + "- " + player.capitalize() + "\n"
+            msg = msg + "\n"
+        await message.channel.send("```" + msg + "```")
+    elif listmsg[0] == "!league":
+        players = listmsg[1:]
+        teams = leagueSort(players)
+        msg = ""
+        t = 1
+        for team in teams:
+            msg = msg + f"Team {t}\n"
+            for player in team:
+                msg = msg + "- " + player.capitalize() + " | " + team[player] + "\n"
+            msg = msg + "\n"
+            t = t + 1
+        await message.channel.send("```" + msg + "```")
+
 # Run the client on server/machine
 client.run(TOKEN)
