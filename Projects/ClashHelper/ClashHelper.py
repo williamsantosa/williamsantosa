@@ -77,29 +77,39 @@ async def on_message(message):
     if lmsg == "!help":
         await message.channel.send("```!team <number of teams> player1 player2 ... to create teams\n!league player1 player2 ... to create teams with roles for League of Legends 5v5 customs```")
         return
+    # Any number of teams and players
     elif listmsg[0] == "!team":
+        # Obtain number of teams
         n = listmsg[1]
+        # Get players and sort the teams
         players = listmsg[2:]
         teams = teamSort(players, int(n))
         msg = ""
+        # Print out the teams in Discord
         for team in teams:
             t = team + 1
             msg = msg + f"Team {t}\n"
             for player in teams[team]:
                 msg = msg + "- " + player.capitalize() + "\n"
             msg = msg + "\n"
+
+        # Send message in Discord
         await message.channel.send("```" + msg + "```")
+    # Specifically for League of Legends 5v5, returns the player and the role within each team
     elif listmsg[0] == "!league":
         players = listmsg[1:]
         teams = leagueSort(players)
         msg = ""
         t = 1
+        # Print out the teams in Discord
         for team in teams:
             msg = msg + f"Team {t}\n"
             for player in team:
                 msg = msg + "- " + player.capitalize() + " | " + team[player] + "\n"
             msg = msg + "\n"
             t = t + 1
+
+        # Send message in Discord
         await message.channel.send("```" + msg + "```")
 
 # Run the client on server/machine
