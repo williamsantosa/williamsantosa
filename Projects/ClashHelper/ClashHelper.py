@@ -12,21 +12,6 @@ async def on_ready():
 
 # Helper functions
 
-# 10 players separated into 2 groups of 5
-def team10(players):
-    p_copy = players.copy()
-    team1 = []
-    team2 = []
-    while len(p_copy) > 0:
-        index = random.randint(0, len(p_copy) - 1)
-        team = random.randint(1,2)
-        if team == 1 and len(team1) < 5:
-            team1.append(p_copy.pop(index))
-        elif team == 2 and len(team2) < 5:
-            team2.append(p_copy.pop(index))
-        
-    return (team1, team2)
-
 # Return a list of the players in each team
 # If uneven, will place into the first team, then the next, etc
 def teamSort(players, n):
@@ -51,6 +36,29 @@ def teamSort(players, n):
             currTeam = 0
         
     return teams
+
+# Return a list of the players in each team and their roles
+# Will only work if there are 10 players
+def leagueSort(players):
+    # Error check for if not 10 players
+    if len(players) != 10:
+        return False
+
+    # Initialize team 1 and team 2
+    # Player : Role
+    t1 = {}
+    t2 = {} 
+
+    # Create teams and place in each respective dictionary
+    roles = ["Top","Jungle","Mid","Bot","Support"]
+    teams = teamSort(players, 2)
+    for player in teams[0]:
+        t1[player] = roles.pop(random.randint(0, len(roles) - 1))
+    roles = ["Top","Jungle","Mid","Bot","Support"]
+    for player in teams[1]:
+        t2[player] = roles.pop(random.randint(0, len(roles) - 1))
+    
+    return (t1, t2)
 
 # Message is sent into a channel response(s)
 @client.event
