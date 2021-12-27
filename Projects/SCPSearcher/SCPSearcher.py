@@ -17,6 +17,7 @@ async def on_message(message):
     channel = str(message.channel.name)
     lmsg = user_message.lower()
 
+    # See messages sent in the server in terminal
     print(f"{username}: {user_message} ({channel})")
 
     # Check for if the message sender is the bot and end the program if so

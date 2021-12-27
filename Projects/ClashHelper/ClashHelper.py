@@ -49,7 +49,7 @@ def leagueSort(players):
     t1 = {}
     t2 = {} 
 
-    # Create teams and place in each respective dictionary
+    # Create teams with their roles and place in each respective dictionary
     roles = ["Top","Jungle","Mid","Bot","Support"]
     teams = teamSort(players, 2)
     for player in teams[0]:
@@ -68,5 +68,8 @@ async def on_message(message):
     channel = str(message.channel.name)
     lmsg = user_message.lower()
 
+    # See messages sent in the server in terminal
+    print(f"{username}: {user_message} ({channel})")
+    
 # Run the client on server/machine
 client.run(TOKEN)
