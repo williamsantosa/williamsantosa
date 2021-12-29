@@ -95,6 +95,8 @@ async def on_message(message):
 
         # Send message in Discord
         await message.channel.send("```" + msg + "```")
+        return
+
     # Specifically for League of Legends 5v5, returns the player and the role within each team
     elif listmsg[0] == "!league":
         players = listmsg[1:]
@@ -111,6 +113,7 @@ async def on_message(message):
 
         # Send message in Discord
         await message.channel.send("```" + msg + "```")
+        return
 
 # Run the client on server/machine
 client.run(TOKEN)
