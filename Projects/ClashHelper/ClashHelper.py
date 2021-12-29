@@ -70,7 +70,6 @@ async def on_message(message):
 
     # See messages sent in the server in terminal
     print(f"{username}: {user_message} ({channel})")
-
     
     # Help command and create variable for message put lowercase
     listmsg = lmsg.split(" ")
