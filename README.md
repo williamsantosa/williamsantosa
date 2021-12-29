@@ -2,7 +2,7 @@ Hi! my name is William Santosa. I'm a Software Developer aiming to help the worl
  
 - 🖊️ I'm working on a Discord bot and applying for internships
 - 👀 I’m interested in logistical processes and helping others
-- 🌱 I’m learning AWS, SAP, and Software Development practices
+- 🌱 I’m learning AWS, Software Development, and implementing APIs
 - 💬 Ask me about interning with your company
 - 📫 How to reach me: [Email](mailto:williamwsantosa@gmail.com) or [LinkedIn](https://www.linkedin.com/in/williamsantosa/)
 - 😁 Pronouns: he/him
