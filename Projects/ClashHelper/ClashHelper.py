@@ -76,6 +76,7 @@ async def on_message(message):
     if lmsg == "!help":
         await message.channel.send("```!team <number of teams> player1 player2 ... to create teams\n!league player1 player2 ... to create teams with roles for League of Legends 5v5 customs```")
         return
+        
     # Any number of teams and players
     elif listmsg[0] == "!team":
         # Obtain number of teams
