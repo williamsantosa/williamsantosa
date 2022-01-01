@@ -29,8 +29,6 @@ def help():
     # Welcome message with delay
     print("Welcome to the help menu where I'll give an explanation on how to convert a number from digits to Bahasa Indonesia.\n")
     sleep(1)
- 
-    
 
     # All possible choices and error checks
     validChoices = ('basic', 'advanced', 'all')
