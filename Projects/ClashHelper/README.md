@@ -29,3 +29,8 @@ INSTRUCTIONS
 9. Create a python file called "config.py" and insert "TOKEN = '<Discord Bot Token>'" within the file
 10. Enter "python ClashHelper.py" into terminal
 11. Send message !help in the discord server with the bot
+
+-------------------
+ADDITIONAL NOTES
+
+- Requires the Discord API to run (https://discordpy.readthedocs.io/en/stable/intro.html)
