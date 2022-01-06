@@ -18,8 +18,10 @@ Description
 -------------------
 INSTRUCTIONS
 
-1. 1
-2. 2
+1. Instruction 1
+2. Instruction 2
 
 -------------------
 ADDITIONAL NOTES
+
+Enter description here
