@@ -1,4 +1,4 @@
-Name (Acronym if needed)
+## Name (Acronym if needed)
 -------------------
 DESCRIPTION
 

@@ -1,4 +1,4 @@
-SCP Searcher
+## SCP Searcher
 -------------------
 DESCRIPTION
 
