@@ -1,22 +1,22 @@
-## SCP Searcher
--------------------
-DESCRIPTION
+# SCP Searcher
+
+### DESCRIPTION
 
 The acronym "SCP" refers to the vast amount of anomalies catalogued in [The SCP Foundation](https://en.wikipedia.org/wiki/SCP_Foundation). Most of these anomalies are secured and contained within an SCP facility in order to protect the general public from their potentially dangerous effects. With this bot, you can search and find the documentation of each SCP with the hyperlink given.
 
--------------------
-FILES
+---
+### FILES
 
-- SCPSearcher.py
+SCPSearcher.py
 
-Contains the code required to run a bot that returns the SCP wiki page for specified SCP.
+- Contains the code required to run a bot that returns the SCP wiki page for specified SCP.
 
-- config.py
+Config.py
 
-Contains the parameters required to run SCPSearcher.py.
+- Contains the parameters required to run SCPSearcher.py.
 
--------------------
-INSTRUCTIONS
+---
+### INSTRUCTIONS
 
 1. Create a Discord server (https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server-)
 2. Create a Discord application (https://discord.com/developers/applications)

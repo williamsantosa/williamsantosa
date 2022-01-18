@@ -1,11 +1,11 @@
-## Name (Acronym if needed)
--------------------
-DESCRIPTION
+# Name (Acronym if needed)
+
+### DESCRIPTION
 
 Enter description here
 
--------------------
-FILES
+---
+### FILES
 
 - File1.extension
 
@@ -15,13 +15,13 @@ Description
 
 Description
 
--------------------
-INSTRUCTIONS
+---
+### INSTRUCTIONS
 
 1. Instruction 1
 2. Instruction 2
 
--------------------
-ADDITIONAL NOTES
+---
+### ADDITIONAL NOTES
 
 Enter description here
