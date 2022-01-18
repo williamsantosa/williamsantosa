@@ -1,11 +1,11 @@
 ![My Profile Banner](Documents/Misc/Banner.png "Anime Banner")
 
-Hi! my name is William Santosa. I'm a Software Developer aiming to help the world by making myself and others become knowledgeable about what is going on around us as well as improve our standard of daily life. I am seeking to improve my skills and soft skills with my personal projects and an internship.
+Hi! my name is William Santosa. I'm a Software Engineer aiming to change the world by making it easier to access resources and connect with one another. I am a very enthusiastic, passionate, and driven person and I love to help others. 
  
-- 🖊️ I'm working on a Discord bot, learning how to use PyGame, and applying for internships
+- 🖊️ I'm working on a Discord bot, practicing DSAs, and trying my best to improve myself every day
 - 👀 I’m interested in logistical processes and helping others
-- 🌱 I’m learning AWS, Software Development, and various APIs
-- 💬 Ask me about interning with your company
+- 🌱 I’m learning AWS, Software Development, and LaTeX/Markdown
+- 💬 Ask me about my interests and hobbies
 - 📫 How to reach me: [Email](mailto:williamwsantosa@gmail.com) or [LinkedIn](https://www.linkedin.com/in/williamsantosa/)
 - 😁 Pronouns: he/him
-- 💪🏼 Fun Fact: I enjoy going to the gym, playing video games, and watching anime
+- 💪🏼 Fun Facts: I enjoy going to the gym, playing video games, and watching anime
