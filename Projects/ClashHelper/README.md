@@ -1,22 +1,22 @@
-## Clash Helper
--------------------
-DESCRIPTION
+# Clash Helper
+
+### DESCRIPTION
 
 "Not Clash" is an event that occurs regularly within our friend group. It's a 5 versus 5 gamemode that is based off "Clash" from League of Legends, which is an official tournament that people play in for prizes. This Discord bot will help us coordinate and make teams for the games that we play almost weekly.
 
--------------------
-FILES
+---
+### FILES
 
-- ClashHelper.py
+ClashHelper.py
 
-Contains the code required to run a bot that helps coordinate Not Clash games.
+- Contains the code required to run a bot that helps coordinate Not Clash games.
 
 - config.py
 
 Contains the parameters required to run ClashHelper.py.
 
--------------------
-INSTRUCTIONS
+---
+### INSTRUCTIONS
 
 1. Create a Discord server (https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server-)
 2. Create a Discord application (https://discord.com/developers/applications)

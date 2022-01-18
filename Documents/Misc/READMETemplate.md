@@ -7,13 +7,13 @@ Enter description here
 ---
 ### FILES
 
-- File1.extension
+File1.extension
 
-Description
+- Description
 
-- File2.extension
+File2.extension
 
-Description
+- Description
 
 ---
 ### INSTRUCTIONS
