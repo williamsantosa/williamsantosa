@@ -6,8 +6,10 @@
 \usepackage{authblk}
 \usepackage{indentfirst}
 \usepackage{blindtext}
+\usepackage{hyperref}
 \graphicspath{{./Images/}}
 \setlength\parindent{12pt}
+\setlength{\parskip}{1em}
 
 \title{MATH23A Ch.11 Notes}
 \author{William Santosa}
@@ -17,8 +19,135 @@
 
 \maketitle
 
-\section{Introduction}
+\section{The Geometry of Euclidian Space}
 This document covers Chapter 11 in MATH 23A, University of California, Santa Cruz, online textbook from macmillianhighered.com.
+Here, we learn to build our mathematical models of space. This document will contain information on how to search for and represent these vectors and objects, as well as
+help us build a better understanding of how mathematicians see the world around us. A summary of terms from the textbook is within this document.
 
+\subsection{Vectors in Two and Three Dimensional Space}
+Points P in the plane are represented by ordered pairs of real numbers \((a_{1}\), \( a_{2})\); the numbers \(a_{1}\text{ and }a_{2}\) 
+are the \textit{Cartesian coordinates of P}. Drawing two perpendicular lines (x and y) as the axes, dropping perpendiculars from P to those axes,
+allows us to create two signed distances \(a_{1}\text{ and }a_{2}\). \(a_{1}\) is the \textbf{x component} of P and \(a_{2}\) is the \textbf{y component} of P.
+
+Similarly, points in space could be represented as an ordered triple with three axis. They are represented by the \textit{x axis, y axis, and z axis}. The point where they intersect is called the origin.
+\begin{enumerate}
+    \item The triple (0, 0, 0) is the origin of the coordinate system
+    \item We label axes x, y, and z by convention.
+    \begin{enumerate}
+        \item \textbf{Note: }This satisfies the right-hand rule, where your right hand is positioned so that fingers curl from the positive x-axis to the positive y-axis, and the thumb is the positive z-direction.
+        \item Real number line is denoted as \(\mathbb{R}^{1}\) or \(\mathbb{R}\)
+        \item Set of all ordered pairs (x, y) of real numbers is denoted \(\mathbb{R}^{2}\)
+        \item Set of all ordered triples (x, y, z) of real numbers is denoted \(\mathbb{R}^{3}\)
+    \end{enumerate}
+\end{enumerate}
+Addition is extended from \(\mathbb{R}\) to \(\mathbb{R}^{2}\) to \(\mathbb{R}^{3}\)
+\begin{enumerate}
+    \item \((a_{1}, a_{2}, a_{3}) + (b_{1}, b_{2}, b_{3}) = (a_{1} + b_{1}, a_{2} + b_{2}, a_{3} + b_{3})\)
+    \item The \textit{zero element} of addition is (0, 0, 0)
+    \item The \textit{additive inverse} (\textit{negative}) of \((a_{1}, a_{2}, a_{3})\) is \((-a_{1}, -a_{2}, -a_{3})\)
+\end{enumerate}
+Multiplication by a \textit{scalar multiple} is done by multiplying each element of the tuple by the scalar
+\begin{enumerate}
+    \item \(s(a_{1},a_{2},a_{3}) = (sa_{1},sa_{2},sa_{3}) \)
+\end{enumerate}
+Vectors are directed line segments in a plane or space represented by directed line segments with a tail and head. When obtained from one another through parallel translation (not rotation) represent the same vector.
+\begin{enumerate}
+    \item Written as \(a = (a_{1}, a_{2}, a_{3}) \)
+    \item To express a vector whose components are \((a_{1}, a_{2}, a_{3})\) in the standard basis: \[(a_{1}i, a_{2}j, a_{3}k)\]
+\end{enumerate}
+Points P with \((x, y, z)\) and Q with \((a, b, c)\), vector \(\overrightarrow{PQ} = (a - x, b - y, c - z)\). The equation of a line \textit{l} through the tip of a and pointing in the direction of the vector v is \(l(t) = a + tv\), where parameter t takes on all real values. In coordinate form, the equations are
+\[x = x_{1} + at\text{,}\] \[y=y_{1} + bt\text{,}\] \[z=z_{1} + ct\text{,}\]
+As such, the equation of a line can be represented in point-direction form \[l(t) = (x, y, z) + t(a, b, c) = (x + ta, y + tb, z + tc)\]
+To find where two lines intersect (or if they do not intersect), set the lines equal to one another and solve for \(t_{1}\) and \(t_{2}\)
+Solve and set equal to one another. Check if true, if they do, they intersect.
+\[(t_{1}, - 6t_{1} + 1, 2t_{1} - 8) = (3t_{2} + 1, 2t_{2}, 0) \]
+\[t_{1} = 3t_{2} + 1\]
+\[-6t_{1} + 1 = 2t_{2}\]
+\[2t_{1} - 8 = 0\]
+The equation of a line passing through the endpoints of two given vectors, \textbf{a} and \textbf{b}, is 
+\[l(t) = a + t(b - a) = (1 - t)a + tb \]
+The Point-Point Form of a line through points \(P = (x_{1}, y_{1}, z_{1}) \text{ and } Q = (x_2, y_2, z_2)\) are
+\[x = x_1 + (x_2 - x_1)t\]
+\[y = y_1 + (y_2 - y_1)t\]
+\[z = z_1 + (z_2 - z_1)t\]
+where (x,y,z) is the general point of l, and the parameter t takes on all real values.
+
+\subsection{The Inner/Dot Product, Length, and Distance}
+
+The inner/dot product, length, and distance are all important concepts in order to understand and manipulate vectors, as they allow us to gain better understanding of these difficult concepts and make it easier to use them to our advantage.
+
+The dot product, defined as \(a \cdot b\) by two vectors a and b, is the real number \(a \cdot b = a_1b_1 + a_2b_2 + a_3b_3\). It is also represented as \(<a, b>\).
+
+The \textit{length} or \textit{modulus} of a vector \(a = a_1i + a_2j + a_3k\) is \(\sqrt[2]{a_{1}^{2} + a_{2}^{2} + a_{3}^{2}}\). The length of a vector a is denoted as \(||a||\).
+
+Vectors with norm 1 are \textit{unit vectors}. For any nonzero vector a, \(\frac{a}{||a||}\) is a unit vector; when we divide a by \(||a||\), we say that we have \textit{normalized} a.
+
+The \textit{distance between} the endpoints of a and b is \(||a - b||\), and the distance between P and Q is \(||\overrightarrow{PQ}||\)
+
+The measure the angle between two vectors a and b, solve the equation \[a \cdot b = ||a||||b||cos(\theta)\] Equivalently, you can manipulate the equation to get \[\theta = cos^{-1}(\frac{a \cdot b}{||a||||b||})\]
+
+The \textit{Corollary Cauchy-Schwarz Inequality} states that for any two vectors a and b, we have \[|a \cdot b| \leq ||a||||b||\] where they're equaivalent only if a is a scalar multiple of b or one of them is zero.
+\begin{itemize}
+    \item \textbf{Note: }If a and b are nonzero vectors and \(a \cdot b = 0\), then we know \(cos(\theta) = 0\), and that the two vectors are perpendicular. Thus, they are known as \textit{orthogonal}.
+    \item The triangle inequality, a derivative of the Cauchy-Schwarz Inequallity, states that \(||a + b|| \leq ||a|| + ||b||\)
+\end{itemize}
+
+The \textit{orthogonal projection} of v on a is the vector \[p = \frac{a \cdot v}{||a||^{2}}a \]
+
+\subsection{Matrices, Determinants, and the Cross Product}
+
+The dot product is a product of vectors that results in a scalar. The cross product, instead, gives a product of vectors that is a vector. Thus, we will show how to produce a third vector \(a \times b\) given vectors a and b.
+
+Matrices are arrays with \(r \times c\), where r is the amount of rows and c is the amount of columns. A \(2 \times 2\) matrix is the array
+\[
+\begin{bmatrix}
+a_{11} & a_{12}\\
+a_{21} & a_{22}
+\end{bmatrix}
+\]
+
+The \textit{determinant} is 
+
+\[
+\begin{vmatrix}
+a_{11} & a_{12}\\
+a_{21} & a_{22}
+\end{vmatrix}
+= a_{11}a_{22} - a_{21}a_{12}
+\]
+
+A \(3 \times 3\) matrix is a little bit different. You can search that up online or go to this \href{https://www.youtube.com/watch?v=eYjSu_xXUUQ&ab_channel=TheOrganicChemistryTutor}{youtube video}.
+
+The cross product of two vectors, \(a = a_1i + a_2j + a_3k\) and \(b = b_1i + b_2j + b_3k\) is 
+\[
+a \cdot b =
+\begin{vmatrix}
+i & j & k\\
+a_{1} & a_{2} & a_{3}\\
+b_{1} & b_{2} & b_{3}
+\end{vmatrix}
+\]
+\begin{enumerate}
+    \item Similarly, \(||a \times b|| = ||a||||b||sin(\theta)\)
+    \item \(a \times b\) is perpendicular to a and b, and the triple \((a, b, a \times b)\) obeys the right hand rule.
+\end{enumerate}
+To find the area of a parallelogram spanned by two vectors a and b, find the magnitude of the cross product of a and b, \(||a \times b||\)
+\newline
+\textbf{IMPORTANT NOTE: }If a and b are perpendicular, then \(a \cdot b = 0\). If a and b are parallel, then \(a \times b = 0\).
+
+The equation of a plane, P, through \((x_0, y_0, z_0)\) with a normal vector \(n = Ai + Bj + Ck\) is \(A(x - x_0) + B(y - y_0) + C(z - z_0) = 0\). Therefore, \((x,y,z) \in P\) iff \(Ax + By + Cz + D = 0\).
+\begin{enumerate}
+    \item To find the equation of the plane containing the points P, Q, and R, 
+    \begin{enumerate}
+        \item Select any endpoint (we use P), and find \(\overrightarrow{QP}\) and \(\overrightarrow{RP}\).
+        \item Find the cross product of \(\overrightarrow{QP}\) and \(\overrightarrow{RP}\), \(\overrightarrow{QP} \times \overrightarrow{RP}\).
+        \item Replace i, j, and k with x, y, and z and subtract the endpoint P from the resulting equation, set equal to zero.
+    \end{enumerate}
+    \item The distance from a point \((x_1, y_1, z_1)\) to a plane \(Ax + By + Cz + D = 0\) is equal to \[\text{Distance} = \frac{|Ax_1 + By_1 + Cz_1 + D|}{\sqrt[2]{A^2 + B^2 + C^2}} \]
+\end{enumerate}
+The intersection of a plane P with a coordinate plane or plane parallel to a coordinate plane is called a \textit{trace}. The trace is a line unless P is a parallel to the coordinate plane.
+\begin{enumerate}
+    \item To find the trace in the xy-plane, set z = 0 in the plane's equation. Similarly, the trace in the xz-plane is obtained setting y = 0 in the equation.
+\end{enumerate}
 
 \end{document}
