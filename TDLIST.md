@@ -5,11 +5,17 @@
 - C
 - C++
 - Java
+- R
+- MatLab
+- Rust
+- Node.js
+- mySQL
 
 ---
 
 ## Text Formatting & Type Setter
 - Markdown
+  - Obsidian.md
 - LaTeX
 
 ---
