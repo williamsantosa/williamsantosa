@@ -8,7 +8,8 @@
 - R
 - MatLab
 - Rust
-- Node.js
+- JavaScript
+  - Node.js
 - mySQL
 
 ---
@@ -22,11 +23,19 @@
 
 ## Data Structures & Algorithms
 - Arrays
+  - Sorting Algorithms
+    - Bubble Sort
+    - Quick Sort
+    - Shell Sort
 - Heap
 - Hash
 - Queue
 - Stack
 - Trees
+  - Traversals
+    - Preorder
+    - Inorder
+    - Postorder
 - Graphs
   - Depth First Search
   - Breadth First Search
