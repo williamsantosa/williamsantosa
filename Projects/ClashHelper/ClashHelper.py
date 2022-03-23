@@ -82,6 +82,8 @@ async def on_message(message):
     elif listmsg[0] == "!team":
         # Obtain number of teams
         n = listmsg[1]
+        if n <= 1:
+            await message.channel.send("Please input a number greater than 1.")
         # Get players and sort the teams
         players = listmsg[2:]
         teams = teamSort(players, int(n))
@@ -102,7 +104,12 @@ async def on_message(message):
     elif listmsg[0] == "!league":
         players = listmsg[1:]
         if(len(players) != 10):
-            await client.get_channel(message.channel.id).send(f"Please input 10 name(s). You inputted {len(players)} names.")
+            if(len(players) == 0):
+                await client.get_channel(message.channel.id).send(f"Please input 10 names. You inputted no names.")
+            elif(len(players) == 1):
+                await client.get_channel(message.channel.id).send(f"Please input 10 names. You inputted 1 name.")
+            else:
+                await client.get_channel(message.channel.id).send(f"Please input 10 names. You inputted {len(players)} names.")
             return
         teams = leagueSort(players)
         msg = ""
