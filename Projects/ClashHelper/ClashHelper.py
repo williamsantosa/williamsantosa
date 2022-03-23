@@ -9,6 +9,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Logged in as {0.user}".format(client))
+    
 
 # Helper functions
 
@@ -100,6 +101,9 @@ async def on_message(message):
     # Specifically for League of Legends 5v5, returns the player and the role within each team
     elif listmsg[0] == "!league":
         players = listmsg[1:]
+        if(len(players) != 10):
+            await client.get_channel(message.channel.id).send(f"Please input 10 names. You inputted {len(players)} names.")
+            return
         teams = leagueSort(players)
         msg = ""
         t = 1
