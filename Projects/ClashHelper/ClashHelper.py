@@ -102,7 +102,7 @@ async def on_message(message):
     elif listmsg[0] == "!league":
         players = listmsg[1:]
         if(len(players) != 10):
-            await client.get_channel(message.channel.id).send(f"Please input 10 names. You inputted {len(players)} names.")
+            await client.get_channel(message.channel.id).send(f"Please input 10 name(s). You inputted {len(players)} names.")
             return
         teams = leagueSort(players)
         msg = ""
