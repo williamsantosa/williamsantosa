@@ -82,8 +82,9 @@ async def on_message(message):
     elif listmsg[0] == "!team":
         # Obtain number of teams
         n = listmsg[1]
-        if n <= 1:
-            await message.channel.send("Please input a number greater than 1.")
+        if int(n) <= 1:
+            client.get_channel(message.channel.id).send(f"Please input a number greater than 1. You inputted {n}.")
+            return
         # Get players and sort the teams
         players = listmsg[2:]
         teams = teamSort(players, int(n))
