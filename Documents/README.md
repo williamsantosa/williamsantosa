@@ -1,1 +1,1 @@
-This folder contains relevant documents. If you'd like to inquire about any of them please check my contact information on my github profile page or reach out to my [email](mailto:williamwsantosa@gmail.com) at williamwsantosa@gmail.com.
+Contains relevant documents.
