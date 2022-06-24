@@ -1,4 +1,4 @@
-![My Profile Banner](Documents/Misc/Banner.png "[Anime Banner](https://wallpaper.dog/aesthetic-anime)")
+![My Profile Banner](Banner.png "[Anime Banner](https://wallpaper.dog/aesthetic-anime)")
 
 Hi! my name is William Santosa. I'm a Software Engineer aiming to change the world by making it easier to access resources and connect with one another. I am a very enthusiastic, passionate, and driven person and I love to help others. 
  

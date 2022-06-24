@@ -1,1 +1,0 @@
-Contains classwork my Professors have given me permission to publish as well as my notes.
