@@ -2,7 +2,7 @@
 
 Hi! My name is William Santosa. I'm a computer scientist aiming to improve educational resources through my work. I am very enthusiastic, passionate, and driven and I love to help others. 
 
-Check out my website [here](https://williamsantosa.github.io/williamsantosa-website/)!
+Check out my website I built from scratch [here](https://williamsantosa.github.io/williamsantosa-website/)!
 
 - 👀 I’m interested in learning and helping others
 - 🌱 I’m learning about database systems and software engineering
