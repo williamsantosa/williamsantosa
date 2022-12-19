@@ -1,10 +1,11 @@
 ![My Profile Banner](Banner.png "[Anime Banner](https://wallpaper.dog/aesthetic-anime)")
 
-Hi! My name is William Santosa. I'm a Software Engineer aiming to change the world by making it easier to access resources and connect with one another. I am a very enthusiastic, passionate, and driven person and I love to help others. 
- 
-- 🖊️ I'm working on a secret project... :)
+Hi! My name is William Santosa. I'm a computer scientist aiming to improve educational resources through my work. I am very enthusiastic, passionate, and driven and I love to help others. 
+
+Check out my website [here](https://williamsantosa.github.io/williamsantosa-website/)!
+
 - 👀 I’m interested in learning and helping others
-- 🌱 I’m learning about software development and full-stack web development
+- 🌱 I’m learning about database systems and software engineering
 - 💬 Ask me about my interests and hobbies
 - 📫 How to reach me: [Email](mailto:williamwsantosa@gmail.com) or [LinkedIn](https://www.linkedin.com/in/williamsantosa/)
 - 😁 Pronouns: he/him
