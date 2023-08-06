@@ -1,6 +1,6 @@
 ![My Profile Banner](Media/Banner.png "My Banner 😎 (copyright: me)")
 
-Hi! I'm a computer scientist/software engineer working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
+Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
 Check out the website I built from scratch [here](https://williamsantosa.github.io/williamsantosa-website/)!
 
