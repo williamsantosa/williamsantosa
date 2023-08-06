@@ -1,6 +1,6 @@
-![My Profile Banner](Media/Banner.png "[Anime Banner](https://wallpaper.dog/aesthetic-anime)")
+![My Profile Banner](Media/Banner.png "My Banner 😎 (copyright: me)")
 
-Hi! I'm a computer scientist aiming to improve educational resources through my work. I am very enthusiastic, passionate, and driven and I love to help others. 
+Hi! I'm a computer scientist/software engineer working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
 Check out the website I built from scratch [here](https://williamsantosa.github.io/williamsantosa-website/)!
 
