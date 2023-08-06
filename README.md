@@ -1,4 +1,4 @@
-![My Profile Banner](Media/Banner.png "My Banner 😎 (copyright: me)")
+![My Profile Banner](Media/Banner.png "i drew this using my mouse LOL 💀💀💀")
 
 Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
