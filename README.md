@@ -29,8 +29,6 @@ An application that downloads YouTube videos via streams using an easy-to-use an
 
 ## Socials
 
-<div style="column-gap: 0.5rem; display: flex;" >
-  <a href="mailto:williamwsantosa@gmail.com" style="margin-right:10px;"><img alt="Gmail" title="Gmail" height="48" width="48" src="Media/gmail.svg"></a>
-  <a href="https://www.linkedin.com/in/williamsantosa/"><img alt="LinkedIn" title="LinkedIn" height="48" width="48" src="Media/linkedin.svg"></a>
-  <a href="https://github.com/williamsantosa" style="margin-left:10px;"><img alt="GitHub" title="GitHub" height="48" width="48" src="Media/github.svg"></a>
-</div>
+<a href="mailto:williamwsantosa@gmail.com" style="margin-right:10px;"><img alt="Gmail" title="Gmail" height="48" width="48" src="Media/gmail.svg"></a>
+<a href="https://www.linkedin.com/in/williamsantosa/"><img alt="LinkedIn" title="LinkedIn" height="48" width="48" src="Media/linkedin.svg"></a>
+<a href="https://github.com/williamsantosa" style="margin-left:10px;"><img alt="GitHub" title="GitHub" height="48" width="48" src="Media/github.svg"></a>
