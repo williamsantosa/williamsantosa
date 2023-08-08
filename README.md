@@ -2,7 +2,7 @@
 
 Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
-Check out the website I built from scratch [here](https://williamsantosa.github.io/williamsantosa-website/)!
+Check out my website [here](https://williamsantosa.github.io/website-hugo/)!
 
 - 🌱 I’m learning about database systems and software engineering
 - 💬 Ask me about my interests and hobbies
@@ -29,6 +29,8 @@ An application that downloads YouTube videos via streams using an easy-to-use an
 
 ## Socials
 
-<a href="mailto:williamwsantosa@gmail.com" style="margin-right:10px;"><img alt="Gmail" title="Gmail" height="48" width="48" src="Media/gmail.svg"></a>
-<a href="https://www.linkedin.com/in/williamsantosa/"><img alt="LinkedIn" title="LinkedIn" height="48" width="48" src="Media/linkedin.svg"></a>
-<a href="https://github.com/williamsantosa" style="margin-left:10px;"><img alt="GitHub" title="GitHub" height="48" width="48" src="Media/github.svg"></a>
+<div style="column-gap: 0.5rem; display: flex;" >
+  <a href="mailto:williamwsantosa@gmail.com" style="margin-right:10px;"><img alt="Gmail" title="Gmail" height="48" width="48" src="Media/gmail.svg"></a>
+  <a href="https://www.linkedin.com/in/williamsantosa/"><img alt="LinkedIn" title="LinkedIn" height="48" width="48" src="Media/linkedin.svg"></a>
+  <a href="https://github.com/williamsantosa" style="margin-left:10px;"><img alt="GitHub" title="GitHub" height="48" width="48" src="Media/github.svg"></a>
+</div>
