@@ -2,7 +2,7 @@
 
 Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
-Check out my website [here](https://williamsantosa.github.io/website-hugo/)!
+Check out my website [here](https://williamsantosa.github.io)!
 
 - 🌱 I’m learning about database systems and software engineering
 - 💬 Ask me about my interests and hobbies
