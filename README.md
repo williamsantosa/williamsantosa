@@ -2,30 +2,11 @@
 
 Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
-Check out my website [here](https://williamsantosa.github.io)!
+Check out my website [here](https://williamsantosa.github.io) to learn more about me! For example...
 
-- 🌱 I’m learning about database systems and software engineering
-- 💬 Ask me about my interests and hobbies
-- 😁 Pronouns: he/him
-- 🏋️‍♂️ Fun Facts: I enjoy playing video games, going on walks/to gym, watching anime, and programming in my free time
-
-## Recent Projects
-
-### [Not Clash v2](https://github.com/williamsantosa/Not-Clash-v2)
-
-Second iteration of the original Not Clash discord bot. Written in JavaScript and utilizes Node.js, discord.js, and SQLite. Facilitates League of Legends matches and stores player and match information in SQLite database.
-
-### [NoteScript](https://github.com/williamsantosa/TFC-Boston-Hackathon-2023)
-
-Full stack web application allowing users to easily generate notes for transcripts. Created for the Civic Tech Hackathon hosted by Tech For Change at Boston University, Feb 25 - 26, 2023.
-
-### [UCSC-CS](https://github.com/williamsantosa/ucsc-cs)
-
-A guide to the University of california, Santa Cruz's Computer Science majors.
-
-### [YouToo](https://github.com/williamsantosa/YouToo)
-
-An application that downloads YouTube videos via streams using an easy-to-use and intuitive graphical user interface.
+- 🖥 Recent projects 
+- 🎮 Posts about my work and interests 
+- 😝 Other random thingamajigs! 
 
 ## Socials
 
