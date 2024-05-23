@@ -1,12 +1,14 @@
 ![My Profile Banner](Media/Banner.png "i drew this using my mouse LOL 💀💀💀")
 
-Hi! I'm a software engineer/computer scientist with a goal of working on technologies that positively impacts our daily lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
+Hi! I'm a software engineer/computer scientist working on things that positively impacts our lives. I currently attend the University of California, Los Angeles, as a graduate student and am studying computer science.
 
 Check out my website [here](https://williamsantosa.github.io) to learn more about me! For example...
 
 - 🖥 Recent projects 
 - 🎮 Posts about my work and interests 
 - 😝 Other random thingamajigs! 
+
+(Some) Hobbies: Games, video production, photography, exercise (calisthenics+gym), music (ukulele+guitar), arcades, skating, stuffed animals, manga/anime.
 
 ## Socials
 
