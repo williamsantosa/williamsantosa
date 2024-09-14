@@ -1,1 +1,0 @@
-![My Profile Banner](Media/Banner.png "I drew this using my mouse 💀")
